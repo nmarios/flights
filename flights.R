@@ -1,3 +1,4 @@
+#try for a better solution
 #Εργασία 1
 ########################################################3
 #Κάτω από κάθε ερώτηση να τοποθετήσετε το κώδικα-απάντηση της αντίστοιχης ερώτησης
@@ -10,10 +11,14 @@
 #Να υπολογίσετε και να εμφανίσετε τις απαντήσεις για κάθε ένα από τα παρακάτω ερωτήματα
 
 # Importation of useful packages and observation of our dataset's structure
-install.packages("tidyverse")
-install.packages("dplyr")
-library("dplyr")
-library("tidyverse")
+if (require('tidyverse')==FALSE){install.packages("tidyverse")}
+library('tidyverse')
+if (require('dply')==FALSE){install.packages("dplyr")}
+library('dplyr')
+
+
+
+
 str(DelayedFlights)
 dim(DelayedFlights)
 
