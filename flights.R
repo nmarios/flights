@@ -1,16 +1,5 @@
-#try for a better solution
-#Εργασία 1
-########################################################3
-#Κάτω από κάθε ερώτηση να τοποθετήσετε το κώδικα-απάντηση της αντίστοιχης ερώτησης
-#Μπορείτε για κάθε απάντηση να χρησιμοποιήσετε οποιοδήποτε μοτίβο κώδικα έχετε διδαχθεί
-#An den emfanizontai sosta ta ellinika epilegetai apo to menu tools->global options->code->saving->default code encoding->utf-8
-#epeita epilegetai apply kleinete to arxeio kai to ksanaanoigete
+#checking for existence, installing, loading packages for data analysis
 
-
-
-#Να υπολογίσετε και να εμφανίσετε τις απαντήσεις για κάθε ένα από τα παρακάτω ερωτήματα
-
-# Importation of useful packages and observation of our dataset's structure
 if (require('tidyverse')==FALSE){install.packages("tidyverse")}
 library('tidyverse')
 if (require('dply')==FALSE){install.packages("dplyr")}
