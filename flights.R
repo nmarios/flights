@@ -1,5 +1,6 @@
-#checking for existence, installing, loading packages for data analysis
 
+#checking for existence, installing, loading packages for data analysis
+print("hello world")
 library(readr)
 DelayedFlights <- read_csv("C:/Users/strat/Desktop/delayedflights/DelayedFlights.csv")
 View(DelayedFlights)
@@ -8,6 +9,7 @@ if (require('tidyverse')==FALSE){install.packages("tidyverse")}
 library('tidyverse')
 if (require('dply')==FALSE){install.packages("dplyr")}
 library('dplyr')
+
 
 
 
